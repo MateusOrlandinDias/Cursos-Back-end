@@ -21,6 +21,7 @@ const empresa = {
     nome: "Meta IT",
 }
 
+// cliente.imprimeDado();
 //VV FUNCIONAMENTO DO THIS PEGANDO UMA FUNÇÃO DE UM OBJETO E USANDO EM OUTRO VV
 // cliente.imprimeDado.call(empresa);
 
