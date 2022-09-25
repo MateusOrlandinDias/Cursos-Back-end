@@ -1,4 +1,5 @@
 //algoritmo que percorre dois arrays diferentes e ordena em um só array em ordem de preço
+//ALGORITMO QUE MISTURA 2 LISTAS JÁ ORDENADAS
 const { edFolha, edGalho } = require('./arrays');
 
 function juntaListas(Lista1, Lista2) {
