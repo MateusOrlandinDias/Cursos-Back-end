@@ -1,9 +1,8 @@
 /*
-Quick Sort
+Pincipios do Quick Sort
 
 Primeiro passo - Posicionar o pivo
 Segundo passo - Passar os elementos menores que o pivô para a sua esqueda
-Terceiro passo - 
 */
 const array = require('./arrays');
 
@@ -45,4 +44,6 @@ function divideNoPivo(array){
     return array;
 }
 
-console.log(divideNoPivo(array));
+// console.log(divideNoPivo(array));
+
+module.exports = trocaLugar;
