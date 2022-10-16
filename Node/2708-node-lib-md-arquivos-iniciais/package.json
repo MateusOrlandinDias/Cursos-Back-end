@@ -1,25 +1,36 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "md-link-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This library help you to extract links from markdown archives and validate they http status.",
+  "main": "./cli.js",
+  "bin": {
+    "md-link-test": "./cli.js"
+  },
+  "preferGlobal": true,
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli" : "node ./src/cli.js"
+    "cli": "node ./src/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "markdown",
+    "URL",
+    "HTTP"
+  ],
+  "author": "Mateus Orlandin Dias <mateus.orlandin@gmail.com> (https://github.com/MateusOrlandinDias)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+    "url": "https://github.com/MateusOrlandinDias/Cursos-Back-end/issues",
+    "email": "mateus.orlandin@gmail.com"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "homepage": "https://github.com/MateusOrlandinDias/Cursos-Back-end",
   "dependencies": {
-    "chalk": "5.0.1"
+    "chalk": "5.0.1",
+    "md-link-test": "^1.0.0",
+    "node-fetch": "^2.6.1"
   }
 }
